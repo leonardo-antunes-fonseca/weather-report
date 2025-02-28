@@ -13,7 +13,7 @@ Este projeto visa a coleta, transformação, armazenamento e visualização de d
 Os dados do IBGE foram consumidos por meio de sua API, criando uma lista com todos os municípios do Brasil.
 
 ### 2. Transformação
-Os dados JSON obtidos foram transformados em um DataFrame, onde selecionamos apenas os campos necessários para o processo de análise.
+Os dados JSON obtidos foram transformados em um DataFrame, onde selecionamos apenas os campos necessários para os processos de análise.
 
 ### 3. Carga no BigQuery
 A tabela de municípios foi carregada no BigQuery, criando uma tabela de dimensão com as informações essenciais.
